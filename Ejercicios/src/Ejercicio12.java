@@ -30,7 +30,7 @@ public class Ejercicio12 {
 
         do{
 
-            if (cadena.substring(0,1).equals("X") && cadena.substring(4,5).equals("O")){
+            if (cadena.charAt(0) == 'X' && cadena.charAt(4) == 'O'){
              correcto += 1;
             }else if(cadena.equals(FDE)){
                 System.out.println("Finalizar programa");
